@@ -20,7 +20,14 @@ body {
 }
 
 .stats-container {
+    color:#758190;
+    cursor: pointer;
+
     display: flex;
+    
+}
+.stats-container:hover{
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -40,16 +47,34 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 
-.game-img {
+/* #game-container img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 10%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFFFFF;
+    flex-basis: 5%;
+} */
+.game-img{
     width: 100%;
     border-radius: 5px;
     box-shadow: 0 0 10px #FFFFFF;
 }
-
 .game-card {
-    background-color: #FFFFFF;
+    /* width: 10%; */
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFFFFF;
+    flex-basis: 5%;
+}
+
+.game-card {    
+    background-color: white ;
+    flex-basis: 20%;
     padding: 1%;
     margin: 1%;
     width: 300px;
